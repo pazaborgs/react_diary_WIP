@@ -1,0 +1,19 @@
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 24px;
+    background-color: #06080F;
+    border-radius: 90px 98px 24px 98px/8px 40px 240px 98px;
+    width: 180px;
+    font-size: 24px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.botao:hover {
+    background-color: transparent;
+    color: #06080F;
+    border: solid 2px #06080F;
+    transition: 0.2s;
+}

@@ -1,0 +1,27 @@
+.descricao {
+    margin: 12px 0;
+    color: #394494;
+}
+
+.descricao label {
+    display: flex;
+    margin-bottom: 8px;
+    font-size: 32px;
+}
+
+.descricao textarea {
+    background-color: transparent;
+    min-width: 50vw;
+    min-height: 50vh;
+    font-size: 24px;
+    padding: 24px;
+    box-sizing: border-box;
+    line-height: 2em;
+    resize: none;
+    font-family: 'Indie Flower', cursive;
+
+    box-shadow: 20px 38px 34px -26px rgba(60, 60, 60, .1);
+
+    border-radius: 255px 0 4px 15px/15px 225px 15px 255px;
+    border: solid 2px #06080F
+}

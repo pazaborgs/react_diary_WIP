@@ -1,0 +1,24 @@
+.titulo {
+    margin: 24px 0;
+    color: #f55656;
+}
+
+.titulo label {
+    display: flex;
+    margin-bottom: 8px;
+    font-size: 32px;
+}
+
+.titulo input {
+    background-color: transparent;
+    width: 100%;
+
+    font-family: 'Indie Flower', cursive;
+    font-size: 24px;
+    padding: 24px;
+    box-sizing: border-box;
+
+    box-shadow: 20px 38px 34px -26px rgba(60, 60, 60, .1);
+    border-radius: 255px 42px 255px 64px/15px 225px 15px 255px;
+    border: solid 2px #06080F
+}

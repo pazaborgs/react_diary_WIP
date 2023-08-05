@@ -1,0 +1,121 @@
+.nota {
+  position: relative;
+  display: block;
+  height: 18em;
+  width: 18em;
+  box-shadow: 3px 3px 7px rgba(33, 33, 33, 0.4);
+  font-family: "Indie Flower", cursive;
+}
+
+.nota:nth-child(even) {
+  transform: rotate(4deg);
+  position: relative;
+  top: 5px;
+}
+
+.nota:nth-child(3n) {
+  transform: rotate(-3deg);
+  position: relative;
+  top: 5px;
+}
+
+.nota:nth-child(5n) {
+  transform: rotate(5deg);
+  position: relative;
+  top: 5px;
+}
+
+.nota:hover {
+  transform: scale(1.1);
+  position: relative;
+  z-index: 5;
+  transition: 0.2s;
+}
+
+.nota .cabecalho {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+  padding: 0 1em;
+
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.nota .cabecalho p {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.nota .cabecalho time {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 20px;
+  margin: 8px;
+}
+
+.nota .centro {
+  display: flex;
+  justify-content: center;
+  padding: 0 1em;
+}
+
+.nota .centro p {
+  font-size: 18px;
+  text-align: justify;
+  display: -webkit-box;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.nota .rodape button {
+  background-color: transparent;
+  border-radius: 90px 22px 24px 24px/2px 225px 15px 255px;
+  border: solid 1px #06080f;
+  font-size: 16px;
+  font-family: "Indie Flower", cursive;
+  padding: 6px;
+  margin: 8px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.close-modal,
+.delete-btn {
+  background-color: transparent;
+  border-radius: 90px 22px 24px 24px/2px 225px 15px 255px;
+  border: solid 1px #06080f;
+  font-size: 24px;
+  font-family: "Indie Flower", cursive;
+  padding: 6px;
+  margin: 8px;
+}
+
+.modaltitle {
+  font-size: 40px;
+  font-family: "Indie Flower", cursive;
+}
+
+.modaldate {
+  font-size: 30px;
+  font-family: "Indie Flower", cursive;
+}
+
+.modaltext {
+  font-family: "Indie Flower", cursive;
+  font-size: 24px;
+  text-align: justify;
+}

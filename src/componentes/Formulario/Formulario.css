@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    background-color: #36454F;
+    padding: 48px;
+
+}
+
+.formulario h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #06080F;
+}
+
+
+.formulario form {
+
+    max-width: 50vw;
+    background-color: #f2f2f2;
+    border-radius: 48px;
+    padding: 36px 64px;
+    box-shadow: 4px 2px rgba(0, 0, 0, 0.2);
+
+    background-image: linear-gradient(#d1d5db 1px, transparent 0px);
+    background-size: 100% 32px;
+    background-position-y: 1.5rem;
+    line-height: 32px;
+    font-family: 'Indie Flower', cursive;
+
+}

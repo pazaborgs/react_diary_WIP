@@ -1,0 +1,26 @@
+.data {
+    margin: 24px 0;
+    color: #1cb981;
+}
+
+.data label {
+    display: flex;
+    margin-bottom: 8px;
+    font-size: 32px;
+
+}
+
+.data input {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    width: 180px;
+    height: 40px;
+
+    border-radius: 90px 22px 24px 24px/15px 225px 15px 255px;
+    border: solid 2px #06080F;
+    font-size: 24px;
+    font-family: 'Indie Flower', cursive;
+    padding: 12px;
+
+}
